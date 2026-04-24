@@ -1,99 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-<link rel="icon" href="../images/home.png">
-<script src="../js/script.js"></script>
-
-
-
-    <title>Bălți - orașul meu</title>
+    <!-- Foaie de stiluri principala -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Iconite Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="icon" href="../images/home.png">
+    <!-- Script pentru meniul mobil -->
+    <script src="../js/script.js"></script>
+    <title>Bălți - Cazare</title>
 </head>
 <body>
-
+    <!-- Header cu logo, navigare si hamburger pentru mobil -->
     <header>
-        <img class="logo" src="../images/home.png" alt="Логотип">
-        <navbar> 
+        <img class="logo" src="../images/home.png" alt="Logo">
+        <navbar>
             <a href="../index.html">Acasă</a>
             <a href="../pages/despre.html">Despre</a>
             <a href="../pages/dostoprimechatel.html">Explorează</a>
             <a href="../pages/contacte.html">Contacte</a>
-             <a href="../pages/cazare.html">Cazare</a>
-            
+            <a href="../pages/cazare.html">Cazare</a>
         </navbar>
-             <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+        <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
     </header>
 
     <main>
-
         <section>
             <h1 class="centered">Locuri disponibile pentru cazare</h1>
 
-            <div class="loc1">
+            <!-- Ancora catre tabelul comparativ -->
+            <p class="centered">
+                <a href="#tabel-comparativ" class="link-index">Vezi tabelul comparativ al hotelurilor ↓</a>
+            </p>
 
-                <h2>White House Apart Hotel ★★★★☆ </h2>
-                <a href="https://www.booking.com/hotel/md/white-house.ro.html?aid=356980&label=gog235jc-10CAMY6QcoggJCBWJhbHRpSCBYA2iOAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCnbGYzwbAAgHSAiRjNzgwMGY2ZS0wOGU5LTQ4MTctYjFhMi0xNmVmMzRiOTc3Y2LYAgHgAgE&sid=5adafab9e6fa892282bb2fe4f128343d&dest_id=-2276030&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1776689885&srpvid=9a3a5b2c775f03a7&type=total&ucfs=1&">
-                <img src="../images/cazare1.png" alt="Памятник Штефану Великому">
+            <!-- Hotel 1 -->
+            <div class="loc1">
+                <h2>White House Apart Hotel ★★★★☆</h2>
+                <!-- Link extern catre Booking.com -->
+                <a href="https://www.booking.com/hotel/md/white-house.ro.html" target="_blank">
+                    <img src="../images/cazare1.png" alt="White House Apart Hotel">
                 </a>
                 <p>
-                  White House Apart Hotel se află în Bălți și pune la dispoziție o terasă. Se oferă la locație WiFi gratuit în toată proprietatea și parcare privată.
-
-Unitățile de cazare sunt moderne și bine echipate, oferind aer condiționat, televizor cu ecran plat, bucătărie complet utilată și baie proprie. Camerele sunt spațioase și confortabile, fiind potrivite atât pentru turiști, cât și pentru călătorii de afaceri.
-
-Oaspeții pot beneficia de o atmosferă liniștită și servicii de calitate, iar amplasarea hotelului permite acces rapid către principalele puncte de interes din oraș. De asemenea, în apropiere se găsesc restaurante, magazine și zone de agrement, ceea ce face șederea mai plăcută și convenabilă.
+                    White House Apart Hotel se află în Bălți și pune la dispoziție o terasă.
+                    Se oferă la locație WiFi gratuit în toată proprietatea și parcare privată.
+                    Unitățile de cazare sunt moderne și bine echipate, oferind aer condiționat,
+                    televizor cu ecran plat, bucătărie complet utilată și baie proprie.
+                    Camerele sunt spațioase și confortabile, fiind potrivite atât pentru turiști,
+                    cât și pentru călătorii de afaceri.
                 </p>
             </div>
 
+            <!-- Hotel 2 -->
             <div class="loc1">
                 <h2>VisPas Bălți ★★★★☆</h2>
-                <a href="https://www.booking.com/hotel/md/vispas-balti.ro.html?aid=356980&label=gog235jc-10CAMY6QcoggJCBWJhbHRpSCBYA2iOAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCnbGYzwbAAgHSAiRjNzgwMGY2ZS0wOGU5LTQ4MTctYjFhMi0xNmVmMzRiOTc3Y2LYAgHgAgE&sid=5adafab9e6fa892282bb2fe4f128343d&dest_id=2124901&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&nflt=sth%3D8&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1776689996&srpvid=72195b643d5111f0&type=total&ucfs=1&">
-                <img src="../images/cazare2.png" alt="Памятник Штефану Великому">
+                <a href="https://www.booking.com/hotel/md/vispas-balti.ro.html" target="_blank">
+                    <img src="../images/cazare2.png" alt="VisPas Balti">
                 </a>
-                <p>VisPas Bălți se află în Bălți și include o grădină, un lounge comun, o terasă și un bar. Acest hotel de 4 stele oferă depozit de bagaje.
-
-Oaspeții beneficiază de camere elegante, dotate cu aer condiționat, TV, minibar și baie privată. Hotelul pune la dispoziție și un restaurant unde pot fi servite preparate variate, precum și un mic dejun bogat în fiecare dimineață.
-
-De asemenea, sunt disponibile servicii de recepție deschisă nonstop, WiFi gratuit în întreaga proprietate și parcare pentru oaspeți. Atmosfera plăcută și serviciile de calitate fac din VisPas Bălți o alegere potrivită atât pentru relaxare, cât și pentru călătorii de afaceri.
+                <p>VisPas Bălți se află în Bălți și include o grădină, un lounge comun, o terasă și un bar.
+                    Acest hotel de 4 stele oferă depozit de bagaje. Oaspeții beneficiază de camere elegante,
+                    dotate cu aer condiționat, TV, minibar și baie privată. Hotelul pune la dispoziție și un
+                    restaurant unde pot fi servite preparate variate, precum și un mic dejun bogat în fiecare
+                    dimineață.
                 </p>
             </div>
 
+            <!-- Hotel 3 -->
             <div class="loc1">
-                <h2>Vip House & Terrace ★★★★★ </h2>
-                <a href="https://www.booking.com/hotel/md/vip-house.ro.html?aid=356980&label=gog235jc-10CAMY6QcoggJCBWJhbHRpSCBYA2iOAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCnbGYzwbAAgHSAiRjNzgwMGY2ZS0wOGU5LTQ4MTctYjFhMi0xNmVmMzRiOTc3Y2LYAgHgAgE&sid=5adafab9e6fa892282bb2fe4f128343d&dest_id=5125071&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=21&hpos=21&nflt=sth%3D8&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1776690227&srpvid=6c455b98709b06c9&type=total&ucfs=1&">
-                <img src="../images/cazare3.png" alt="Памятник Штефану Великому">
+                <h2>Vip House &amp; Terrace ★★★★★</h2>
+                <a href="https://www.booking.com/hotel/md/vip-house.ro.html" target="_blank">
+                    <img src="../images/cazare3.png" alt="Vip House and Terrace">
                 </a>
-                <p>Vip House & Terrace se găsește în Bălți și oferă unități de cazare cu aer condiționat, WiFi gratuit, terasă, vedere la grădină și parcare privată gratuită.
-
-Proprietatea pune la dispoziție camere confortabile și bine amenajate, ideale pentru relaxare și odihnă. Oaspeții se pot bucura de un ambient liniștit, spații verzi și facilități moderne care asigură un sejur plăcut.
-
-Datorită poziției sale, Vip House & Terrace permite acces ușor către centrul orașului și principalele puncte de interes din Bălți, fiind potrivit atât pentru turiști, cât și pentru vizite de afaceri.
+                <p>Vip House &amp; Terrace se găsește în Bălți și oferă unități de cazare cu aer condiționat,
+                    WiFi gratuit, terasă, vedere la grădină și parcare privată gratuită. Proprietatea pune la
+                    dispoziție camere confortabile și bine amenajate, ideale pentru relaxare și odihnă.
                 </p>
-
             </div>
 
+            <!-- Hotel 4 -->
             <div class="loc1">
-                <h2> Inna's House ★★★★☆</h2>
-               <a href="https://www.booking.com/hotel/md/innas-house-balti.ro.html?aid=356980&label=gog235jc-10CAMY6QcoggJCBWJhbHRpSCBYA2iOAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCnbGYzwbAAgHSAiRjNzgwMGY2ZS0wOGU5LTQ4MTctYjFhMi0xNmVmMzRiOTc3Y2LYAgHgAgE&sid=5adafab9e6fa892282bb2fe4f128343d&dest_id=13133104&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&nflt=sth%3D8&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1776690258&srpvid=67c45be7d7040537&type=total&ucfs=1&">
-                <img src="../images/cazare4.png" alt="Памятник Штефану Великому">
+                <h2>Inna's House ★★★★☆</h2>
+                <a href="https://www.booking.com/hotel/md/innas-house-balti.ro.html" target="_blank">
+                    <img src="../images/cazare4.png" alt="Inna's House">
                 </a>
-                <p>Inna’s House se găsește în Bălți și oferă WiFi gratuit și un balcon.
-
-Locația este potrivită pentru o ședere confortabilă, având camere luminoase și bine întreținute. Oaspeții se pot bucura de un spațiu liniștit, ideal pentru relaxare după o zi petrecută în oraș.
-
-De asemenea, apartamentul este dotat cu facilități esențiale precum bucătărie utilată, baie privată și zonă de relaxare, oferind condiții bune atât pentru sejururi scurte, cât și pentru șederi mai lungi.
+                <p>Inna's House se găsește în Bălți și oferă WiFi gratuit și un balcon. Locația este potrivită
+                    pentru o ședere confortabilă, având camere luminoase și bine întreținute. Apartamentul este
+                    dotat cu facilități esențiale precum bucătărie utilată, baie privată și zonă de relaxare.
                 </p>
-
             </div>
 
+            <!-- Tabel comparativ al hotelurilor - criteriul table -->
+            <h2 id="tabel-comparativ" class="centered">Tabel comparativ al hotelurilor</h2>
+            <table style="width:100%; border-collapse:collapse; margin-top:16px; font-size:15px;">
+                <thead>
+                    <tr style="background:#264d54; color:white;">
+                        <th style="padding:10px; border:1px solid #ccc; text-align:left;">Hotel</th>
+                        <th style="padding:10px; border:1px solid #ccc;">Stele</th>
+                        <th style="padding:10px; border:1px solid #ccc;">WiFi</th>
+                        <th style="padding:10px; border:1px solid #ccc;">Parcare</th>
+                        <th style="padding:10px; border:1px solid #ccc;">Restaurant</th>
+                        <th style="padding:10px; border:1px solid #ccc;">Rezervare</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding:9px 10px; border:1px solid #ccc;">White House Apart Hotel</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">★★★★☆</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Da</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Da</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Nu</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;"><a href="https://www.booking.com/hotel/md/white-house.ro.html" target="_blank">Booking</a></td>
+                    </tr>
+                    <tr style="background:#f6fbfc;">
+                        <td style="padding:9px 10px; border:1px solid #ccc;">VisPas Bălți</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">★★★★☆</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Da</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Da</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Da</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;"><a href="https://www.booking.com/hotel/md/vispas-balti.ro.html" target="_blank">Booking</a></td>
+                    </tr>
+                    <tr>
+                        <td style="padding:9px 10px; border:1px solid #ccc;">Vip House &amp; Terrace</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">★★★★★</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Da</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Da</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Nu</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;"><a href="https://www.booking.com/hotel/md/vip-house.ro.html" target="_blank">Booking</a></td>
+                    </tr>
+                    <tr style="background:#f6fbfc;">
+                        <td style="padding:9px 10px; border:1px solid #ccc;">Inna's House</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">★★★★☆</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Da</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Nu</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;">Nu</td>
+                        <td style="padding:9px 10px; border:1px solid #ccc; text-align:center;"><a href="https://www.booking.com/hotel/md/innas-house-balti.ro.html" target="_blank">Booking</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Link extern catre resursa turistica -->
+            <p style="margin-top:18px;">
+                Pentru mai multe opțiuni de cazare, vizitați
+                <a href="https://www.booking.com/city/md/balti.ro.html" target="_blank">Booking.com — Bălți</a>
+                sau pagina
+                <a href="https://ro.wikipedia.org/wiki/Bălți" target="_blank">Wikipedia despre Bălți</a>.
+            </p>
 
         </section>
-
     </main>
 
+    <!-- Footer cu drepturile de autor -->
     <footer>
         <span>Micușa Grigore 2026 ©</span>
     </footer>
