@@ -1,104 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Foaie de stiluri principala -->
     <link rel="stylesheet" href="../css/style.css">
+    <!-- Iconite Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="icon" href="../images/home.png">
+    <!-- Script pentru meniul mobil -->
     <script src="../js/script.js"></script>
-
-
-
-    <title>Bălți - orașul meu</title>
+    <title>Bălți - Despre</title>
 </head>
-
 <body>
-
+    <!-- Header cu navigare principala -->
     <header>
-        <img class="logo" src="../images/home.png" alt="Логотип">
+        <img class="logo" src="../images/home.png" alt="Logo">
         <navbar>
             <a href="../index.html">Acasă</a>
             <a href="../pages/despre.html">Despre</a>
             <a href="../pages/dostoprimechatel.html">Explorează</a>
             <a href="../pages/contacte.html">Contacte</a>
             <a href="../pages/cazare.html">Cazare</a>
-
         </navbar>
         <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
     </header>
 
     <main>
         <section>
+            <h1 class="centered">Despre Bălți</h1>
 
-            <h1 class="centered">Despre Balti</h1>
-            <p>
-                Bălți este un oraș din Moldova, situat în nordul țării. Este cunoscut pentru istoria, cultura și natura
-                sa.
-                Orașul are o istorie bogată, care datează din vremuri străvechi. Aici pot fi văzute numeroase monumente
-                istorice și construcții arhitecturale.
-                În oraș se află, de asemenea, multe muzee, teatre și alte instituții culturale.
-                Bălți este un oraș care îmbină importanța istorică cu dezvoltarea modernă.
-
-                În 1779, la invitația unui pașă turc, în Bălți s-au stabilit negustori evrei. Trei ani mai târziu,
-                drepturile și obligațiile comunității evreiești au fost aprobate de autorități.
-
-                În 1812, Basarabia a trecut sub jurisdicția rusă, iar în 1818 Bălți a fost desemnat oraș de județ al
-                județului Iași din regiunea Basarabia, intrată în Zona de reședință obligatorie, statut pe care l-a
-                păstrat până în 1917 (din 1887 — județul Bălți). În același an, orașul a fost vizitat de împăratul
-                Alexandru I. Se consideră că, în timpul șederii sale la Bălți, împăratul a primit vestea nașterii
-                nepotului său (viitorul împărat Alexandru al II-lea) și, în cinstea acestui eveniment, a dispus
-                acordarea statutului de oraș.
-
-                În 1856, Bălți a fost vizitat și de împărăteasa Maria Alexandrovna (bunica viitoarei regine a României,
-                Maria).
-
-                În 1887, județul Iași a fost redenumit județul Bălți. În acea perioadă, în oraș locuiau aproximativ 10
-                mii de persoane, majoritatea evrei — 70 %, iar în oraș existau 72 de sinagogi.
-
-                Fiind situat la intersecția unor drumuri importante (legând Cernăuți, Hotin, Soroca de Chișinău, Bender,
-                Cetatea Albă, Ismail), orașul a devenit treptat un important centru comercial al Basarabiei. Principalul
-                obiect al comerțului era vitele.
+            <!-- Linkuri ancora catre sectiunile paginii -->
+            <p class="centered">
+                <a href="#istorie">Istorie</a> &nbsp;|&nbsp;
+                <a href="#facte">Facte interesante</a> &nbsp;|&nbsp;
+                <a href="#video">Video</a>
             </p>
 
+            <!-- Sectiunea de istorie -->
+            <div id="istorie">
+                <p>
+                    Bălți este un oraș din Moldova, situat în nordul țării. Este cunoscut pentru istoria, cultura și
+                    natura sa. Orașul are o istorie bogată, care datează din vremuri străvechi. Aici pot fi văzute
+                    numeroase monumente istorice și construcții arhitecturale. În oraș se află, de asemenea, multe
+                    muzee, teatre și alte instituții culturale. Bălți este un oraș care îmbină importanța istorică
+                    cu dezvoltarea modernă.
+                </p>
+                <p>
+                    În 1779, la invitația unui pașă turc, în Bălți s-au stabilit negustori evrei. Trei ani mai
+                    târziu, drepturile și obligațiile comunității evreiești au fost aprobate de autorități.
+                </p>
+                <p>
+                    În 1812, Basarabia a trecut sub jurisdicția rusă, iar în 1818 Bălți a fost desemnat oraș de
+                    județ al județului Iași din regiunea Basarabia. În același an, orașul a fost vizitat de împăratul
+                    Alexandru I. Se consideră că, în timpul șederii sale la Bălți, împăratul a primit vestea nașterii
+                    nepotului său (viitorul împărat Alexandru al II-lea).
+                </p>
+                <p>
+                    Fiind situat la intersecția unor drumuri importante, orașul a devenit treptat un important centru
+                    comercial al Basarabiei. Principalul obiect al comerțului era vitele.
+                    Aflați mai multe pe
+                    <!-- Link extern catre Wikipedia -->
+                    <a href="https://ro.wikipedia.org/wiki/Bălți" target="_blank">Wikipedia — Bălți</a>.
+                </p>
+            </div>
 
-            <h2>Facte interesante</h2>
+            <!-- Sectiunea cu facte interesante -->
+            <h2 id="facte">Facte interesante</h2>
             <ul>
                 <li>Bălți este unul dintre cele mai vechi orașe din Moldova.</li>
                 <li>În oraș se află numeroase monumente istorice.</li>
                 <li>Bălți este cunoscut pentru tradițiile și patrimoniul său cultural.</li>
                 <li>Orașul este situat într-o zonă naturală pitorească, înconjurată de dealuri și râuri.</li>
-                <li>Bălți este un centru al vieții culturale din Moldova, cu numeroase teatre, muzee și festivaluri.
-                </li>
+                <li>Bălți este un centru al vieții culturale din Moldova, cu numeroase teatre, muzee și festivaluri.</li>
                 <li>Orașul are o infrastructură dezvoltată și este un important centru economic al regiunii.</li>
             </ul>
 
-
-
+            <!-- Sectiunea video despre Balti -->
+            <h2 id="video" class="centered">Video despre Bălți</h2>
             <iframe class="vframe" src="https://www.youtube.com/embed/JYJQPVX7NnI?si=W3P_TrQyk-pBWSZm"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
             <p>
-                Bălți este un oraș care merită vizitat pentru a te cufunda în istoria și cultura sa bogată, precum și
-                pentru a te bucura de natura și ospitalitatea locuitorilor săi.
-                Bălți este un oraș care îmbină importanța istorică cu dezvoltarea modernă. Este un important centru
-                cultural și economic al regiunii, atrăgând turiști din întreaga lume prin atmosfera sa unică și istoria
-                bogată.
-
+                Bălți este un oraș care merită vizitat pentru a te cufunda în istoria și cultura sa bogată, precum
+                și pentru a te bucura de natura și ospitalitatea locuitorilor săi.
             </p>
 
         </section>
-
     </main>
 
+    <!-- Footer cu drepturile de autor -->
     <footer>
         <span>Micușa Grigore 2026 ©</span>
     </footer>
 </body>
-
 </html>
